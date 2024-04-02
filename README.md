@@ -10,17 +10,17 @@
 ## 1. Competiton Info
 
 ### Overview
-House Price Prediction 경진대회는 주어진 데이터를 활용하여 서울의 아파트 실거래가를 효과적으로 예측하는 모델을 개발하는 대회
-다양한 변수와 데이터를 고려하여 모델을 훈련하고, 아파트의 실거래가에 대한 예측 성능을 높이기 위한 최적의 방법 찾기
-서울시 각 지역의 아파트 매매 실거래가를 예측하는데 중점
+- House Price Prediction 경진대회는 주어진 데이터를 활용하여 서울의 아파트 실거래가를 효과적으로 예측하는 모델을 개발하는 대회
+- 다양한 변수와 데이터를 고려하여 모델을 훈련하고, 아파트의 실거래가에 대한 예측 성능을 높이기 위한 최적의 방법 찾기
+- 서울시 각 지역의 아파트 매매 실거래가를 예측하는데 중점
 
 ### Timeline
 2024.03.27 ~ 2024.04.02
 
 ### Evaluation
 
-해당 시점의 매매 실거래가를 예측하는 Regression 대회
-평가지표는 RMSE(Root Mean Squared Error)를 사용
+- 해당 시점의 매매 실거래가를 예측하는 Regression 대회
+- 평가지표는 RMSE(Root Mean Squared Error)를 사용
 
 ## 2. Team Component
 
@@ -34,16 +34,16 @@ House Price Prediction 경진대회는 주어진 데이터를 활용하여 서�
 
 ### Dataset overview
 
-- 데이터 종류
-아파트 실거래가 데이터(train.csv)
-지하철역과 버스정류장에 대한 데이터(bus_feature.csv, subway_feature.csv)
-평가 데이터(test.csv)
+데이터 종류
+- 아파트 실거래가 데이터(train.csv)
+- 지하철역과 버스정류장에 대한 데이터(bus_feature.csv, subway_feature.csv)
+- 평가 데이터(test.csv)
 
 ### EDA
-train기준 결측치 80% ~ 90% 이상인 변수 제거
-검색할 수 있는 데이터는 직접 찾아서 대체 ex) x,y좌표 보완
-연속형 변수에는 -100, 범주형 변수는 null대체
-Outlier삭제(건축년도 1973년, 층 -2) 
+- train기준 결측치 80% ~ 90% 이상인 변수 제거
+- 검색할 수 있는 데이터는 직접 찾아서 대체 ex) x,y좌표 보완
+- 연속형 변수에는 -100, 범주형 변수는 null대체
+- Outlier삭제(건축년도 1973년, 층 -2) 
 
 ### Feature engineering
 1. 강남/서초/용산구
@@ -81,5 +81,5 @@ Team name : ML_1wh
 [ML 1조 발표.pptx.pdf](https://github.com/UpstageAILab2/upstage-ml-regression-ml-01/files/14833025/ML.1.pptx.pdf)
 
 ### Areas for improvement
-서버에서 저장한 CatBoost와 LGBM이 로컬에서 돌아가지 않아 앙상블을 수행하지 못함 ---> 추후에 진행할 예정
-라우터를 사용하고 하였으나 혼선이 생겨 에러를 해결하지 못함 ---> 추후 라우터 사용을 위한 코드 수정
+- 서버에서 저장한 CatBoost와 LGBM이 로컬에서 돌아가지 않아 앙상블을 수행하지 못함 ---> 추후에 진행할 예정
+- 라우터를 사용하고 하였으나 혼선이 생겨 에러를 해결하지 못함 ---> 추후 라우터 사용을 위한 코드 수정
