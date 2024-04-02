@@ -24,11 +24,11 @@ House Price Prediction 경진대회는 주어진 데이터를 활용하여 서�
 
 ## 2. Team Component
 
-윤상원(팀원) : 모델 설계 및 실험(cat, xgboost,lightGBM), optuna로 파라미터 튜닝 
-정병원(팀원) : 지오코팅을 이용한, 좌표X와 좌표Y의 결측치 보완
-길종현(팀원) : 전반적인 전처리 및 feature importance 찾기
-홍재민(팀원) : 범주형 데이터 인코딩(one-hot, label) 및 k-fold수행
-한지승(팀장) : 팀의 기본적인 목표 설정, 협업 보조 및 공부
+- 윤상원(팀원) : 모델 설계 및 실험(cat, xgboost,lightGBM), optuna로 파라미터 튜닝 
+- 정병원(팀원) : 지오코팅을 이용한, 좌표X와 좌표Y의 결측치 보완
+- 길종현(팀원) : 전반적인 전처리 및 feature importance 찾기
+- 홍재민(팀원) : 범주형 데이터 인코딩(one-hot, label) 및 k-fold수행
+- 한지승(팀장) : 팀의 기본적인 목표 설정, 협업 보조 및 공부
 
 ## 3. Data descrption
 
