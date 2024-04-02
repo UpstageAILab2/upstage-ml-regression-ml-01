@@ -74,7 +74,7 @@ Encoding(one-hot, label) : 각 변수마다 적절한 인코딩을 사용
 ## 5. Result
 
 ### Leader Board
-Team name : ML_1wh
+Team name : ML_1조
 <img width="1072" alt="스크린샷 2024-04-02 오후 4 22 07" src="https://github.com/UpstageAILab2/upstage-ml-regression-ml-01/assets/156395327/09f4dde0-5359-4734-b5d1-8696dbfca0e1">
 
 ### Presentation
